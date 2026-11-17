@@ -126,7 +126,7 @@ INSERT INTO _user VALUES (7, 'manus', '1234', '1', 'มานัส', 'ภูค
 INSERT INTO _user VALUES (8, 'kob', '1234', '1', 'ณัฐพงศ์', 'กุบแก้ว', '3', '1', '5', '2', '2023-03-22 08:18:02') ON CONFLICT (id) DO NOTHING;
 INSERT INTO _user VALUES (9, 'fluke', '1234', '1', 'สืบไทย', 'สุริยลักษณ์', '14', '2', '9', '2', '2023-03-22 08:19:09') ON CONFLICT (id) DO NOTHING;
 INSERT INTO _user VALUES (10, 'bua', '1234', '3', 'วชิรากร', 'พรพาณิชพันธุ์', '4', '2', '10', '2', '2023-03-22 08:20:02') ON CONFLICT (id) DO NOTHING;
-INSERT INTO _user VALUES (11, 'admin', 'admin', '1', 'ผู้ดูแลระบบ', '', '1', '7', '8', '1', '2023-03-22 08:24:13') ON CONFLICT (id) DO NOTHING;
+INSERT INTO _user VALUES (11, 'admin', 'caogikojt02', '1', 'ผู้ดูแลระบบ', '', '1', '7', '8', '1', '2023-03-22 08:24:13') ON CONFLICT (id) DO NOTHING;
 INSERT INTO _user VALUES (12, 'kai', '1234', '3', 'กัลยา', 'สมรักษ์', '3', '2', '5', '2', '2023-03-22 08:27:20') ON CONFLICT (id) DO NOTHING;
 INSERT INTO _user VALUES (13, 'porn', '1234', '3', 'ประภาพร', 'คุณาจารย์', '3', '2', '5', '2', '2023-03-22 08:30:22') ON CONFLICT (id) DO NOTHING;
 INSERT INTO _user VALUES (14, 'noi', '1234', '3', 'สุพรรณ', 'วรรธนานันต์', '3', '2', '5', '2', '2023-03-22 08:30:58') ON CONFLICT (id) DO NOTHING;
